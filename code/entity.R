@@ -31,9 +31,17 @@ admin4_list <- data.frame(divipola$Código.Centro.Poblado, divipola$Nombre.Centr
 admin4_list <- unique(admin4_list)
 names(admin3_list) <- c('admin4', 'admin4_name')
 
+# summary table
+admin2 <- nrow(admin2_list)
+admin3 <- nrow(admin3_list)
+admin4 <- nrow(admin4_list)
+total <- admin2 + admin3 + admin4
+summary <- data.frame(admin2, admin3, admin4, total)
+    
 # storing CSV
 # Notice that the metropolitan area is ignored from the files.
 write.csv(divilopa, 'data/col_admin_all.csv', row.names = F)
 write.csv(admin2_list, 'data/col_admin2.csv', row.names = F)
 write.csv(admin3_list, 'data/col_admin3.csv', row.names = F)
 write.csv(admin4_list, 'data/col_admin4.csv', row.names = F)
+write.csv(summary, 'summary_table.csv', row.names = F)

@@ -5,6 +5,12 @@ This repo has a small script that downloads a file from the national statistical
 
 The advantage of using this script is that it downloads the **latest** version of the administrative boundaries from DANE's website by issuing a time-specific query. This makes it easier to always have the latest official list.
 
+This is the summary of administrative boundaries:
+
+| admin2 | admin3 | admin4 | total |
+|--------|--------|--------|-------|
+| 33     | 1122   | 9147   | 10302 |
+
 
 Usage
 -----
