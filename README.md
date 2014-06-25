@@ -14,3 +14,7 @@ Just run the `run.sh` script from the terminal:
 ```bash
 bash run.sh
 ```
+
+Output
+------
+The resulting files are in the [data](https://github.com/luiscape/colombia_pcode/tree/master/data) folder.
