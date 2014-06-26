@@ -41,7 +41,7 @@ admin2 <- nrow(admin2_list)
 admin3 <- nrow(admin3_list)
 admin4 <- nrow(admin4_list)
 total <- admin2 + admin3 + admin4
-summary <- data.frame(admin2, admin3, admin4, total)
+summary <- data.frame(admin2, admin3, admin4, total) 
 
 message('Storing CSV files...')
 # storing CSV
