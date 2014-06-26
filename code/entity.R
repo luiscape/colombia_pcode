@@ -33,7 +33,7 @@ admin3_list$hdx_pcode <- paste0(iso3, admin3_list$admin3)
 # for centros poblados
 admin4_list <- data.frame(divipola$Código.Centro.Poblado, divipola$Nombre.Centro.Poblado)
 admin4_list <- unique(admin4_list)
-names(admin3_list) <- c('admin4', 'admin4_name')
+names(admin4_list) <- c('admin4', 'admin4_name')
 admin4_list$hdx_pcode <- paste0(iso3, admin4_list$admin4)
 
 # summary table
